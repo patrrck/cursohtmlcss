@@ -1,0 +1,105 @@
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body {
+      background-color: antiquewhite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .quadrado {
+      width: 800px;
+      height: 600px;
+      background-color: white;
+      border-radius: 2%;
+      display: flex;
+      position:fixed; 
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    }
+    .quadrado img {
+      border-top-left-radius: 2%;
+      border-bottom-left-radius: 2%;
+      display: flex;
+    }
+    @font-face {
+      font-family: "Montserrat";
+      src: url(Montserrat-Thin.ttf);
+    }
+    @font-face {
+      font-family: "Monte";
+      src: url(Montserrat-Light.ttf);
+    }
+    @font-face {
+      font-family: "Mont";
+      src: url(Montserrat-ExtraBold.ttf);
+    }
+
+    .quadrado h2{
+    position:fixed; 
+    margin-left: 430px;
+    margin-top: 30px;
+    color: gray;
+    font-family: Montserrat, sans-serif;
+  }
+
+  .quadrado h1{
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 76px;
+    font-size: 45px;
+  }
+
+  .quadrado p{
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 205px;
+    font-size: 18px;
+    font-family: Monte, sans-serif;
+  }
+
+  #reais{
+    font-family: Mont;
+    color: #4c703b;
+    position: fixed;
+    font-size: 50px;
+    margin-left: 430px;
+    margin-top: 380px;
+  }
+
+  #desconto {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7e7e7e;
+    position: fixed;
+    font-size: 15px;
+    margin-left: 670px;
+    margin-top: 390px;
+  }
+  .outro {
+    width: 300px;
+    height: 80px;
+    background-color: #4c703b;
+    border-radius: 15px;
+    position: fixed;
+    display: flex;
+    margin-left: 390px;
+    margin-top: 420px;
+  }
+
+.outro img {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  color: black;
+  margin: center;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+.outro p {
+  font-family: monte;
+  font-size: 24px;
+  color: white;
+  margin-left: 90px;
+  position: absolute;
+}
